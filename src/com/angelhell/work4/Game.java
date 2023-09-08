@@ -38,6 +38,7 @@ public class Game {
         }else{
             System.out.println(role2Name + "获胜");
             win = role2Name;
+            //Test
         }
         return win;
     }
