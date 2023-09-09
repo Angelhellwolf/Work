@@ -19,6 +19,7 @@ public class Game {
         System.out.println(tempRole1HP);
         double tempRole2HP = role2HP;
         System.out.println(tempRole2HP);
+        //sb
         String win;
         for(;;) {
             tempRole1HP = tempRole1HP - role2attackPower;
