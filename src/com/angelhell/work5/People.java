@@ -2,7 +2,7 @@ package com.angelhell.work5;
 
 import java.util.Scanner;
 
-public class people {
+public class People {
     //n个人围成一圈，从第一个人开始报数，数到m的人出列，再有下一个人重新从1开始报数，数到m的人在出圈，以此类推，直到所有的人都出圈，在输出以此出圈人的编号
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
