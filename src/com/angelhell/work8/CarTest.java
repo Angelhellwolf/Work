@@ -9,6 +9,7 @@ public class CarTest {
     static Car[] cars = new Car[3];
     static int input = 0;
     public static void main(String[] args) {
+        //大聪明的学习模式
         for(int i = 0;i < 3; i++) {
             System.out.println("请输入汽车的名字");
             String name = sc.next();
