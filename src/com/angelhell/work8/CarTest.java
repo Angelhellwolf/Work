@@ -27,5 +27,6 @@ public class CarTest {
         Car car = new Car(name, price, color);
         cars[input] = car;
         input ++;
+        //加一
     }
 }
