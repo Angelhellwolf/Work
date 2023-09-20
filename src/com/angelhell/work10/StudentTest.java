@@ -13,6 +13,7 @@ public class StudentTest {
         for(int i = 0;i<arr.length;i++){
             System.out.println("请输入学生的ID");
             int id =sc.nextInt();
+
             System.out.println("请输入学生的姓名");
             String name = sc.next();
             System.out.println("请输入学生的年龄");
@@ -22,19 +23,19 @@ public class StudentTest {
         System.out.println("请输入删除的学生ID");
         int removeId = sc.nextInt();
         int tempI = 0;
-        for (int i = 0; i < arr.length; i++) {
-            if(arr[i].getId() == removeId){
+        for (Student student : arr) {
+            if (student.getId() == removeId) {
                 removeId(removeId);
             }
             tempI++;
-            if(tempI == arr.length){
+            if (tempI == arr.length) {
                 System.out.println("删除失败");
                 tempI = 0;
             }
         }
-        for (int i = 0; i < arr.length; i++) {
-            if(Objects.equals(arr[i].getName(), "heima002")){
-                arr[i].setAge(arr[i].getAge() + 1);
+        for (Student student : arr) {
+            if (Objects.equals(student.getName(), "heima002")) {
+                student.setAge(student.getAge() + 1);
             }
         }
 
@@ -71,4 +72,5 @@ public class StudentTest {
             }}
         }
     }
+
 }
