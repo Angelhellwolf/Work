@@ -1,7 +1,5 @@
 package com.angelhell.work8;
 
-import com.angelhell.work7.Goods;
-
 import java.util.Scanner;
 
 public class CarTest {
