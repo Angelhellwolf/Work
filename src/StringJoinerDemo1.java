@@ -9,6 +9,7 @@ public class StringJoinerDemo1 {
 
 
         System.out.println(sj);
+        Student student = new Student();
     }
     
 }
